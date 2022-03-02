@@ -75,7 +75,7 @@ body {
 }
 
 .character-container .dead,
-.alive {
+.alive, .unknown {
   height: 0.5rem;
   width: 0.5rem;
   margin-right: 0.375rem;
@@ -89,6 +89,10 @@ body {
 
 .character-container .alive {
   background: rgb(85, 204, 68);
+}
+
+.character-container .unknown {
+  background: rgb(246, 250, 5);
 }
 
 .character-container div:first-child {
@@ -146,4 +150,13 @@ body {
   .character-container img {
     width: 150px;
   }
+}
+
+#div_top_hypers {
+  background-color:#eeeeee;
+  display:inline;      
+}
+
+#ul_top_hypers li {
+  display: inline;
 }
